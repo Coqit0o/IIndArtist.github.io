@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IndArt</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        document.write ("Bienvenidos al curso de JavaScript ");
+        let name = prompt("Porfavor ingrese su nombre");
+        console.log(name);
+        document.write(name);
+        
+    </script>
+</head>
+<body>
+    <div id="contenedor">
+        <header>
+            <h1>IndArtist</h1>
+        </header>
+        <nav>
+            <a href="index.html"><img src="BTNHOME.PNG"> </a>
+            <a href="quienessomos.html"><img src= "BTNSOMOS.PNG"></a>
+            <a href="tematicas.html"><img src= "BTNTEM.PNG"></a>
+            <a href="referencias.html"><img src="BTNREF.PNG"></a>
+            <a href="contacto.html"><img src="BTNCONTACT.PNG"></a>
+        </nav>
+     <section id="contenido">
+        <article>
+            <h2>Contactenos</h2>            
+            <form id="contacto">
+              <label for="nombre">Nombre</label>
+              <input type="text" name="nombre" placeholder="Nombre" id="nombre">
+              <label for="apellido">Apellido</label>
+              <input type="text" name="apellido" placeholder="Apellido"  id="apellido">
+              <label for="correo">Correo</label>
+              <input type="email" name="correo" id="correo">
+              <input type="button" value="Enviar formulario" id="boton">
+          </form>
+            <p><h4>¡Para ayuda o mas informacion completa el formulario!</h4></p>
+            <div>
+              <table  id="tabla" style="border-spacing: 10px;">
+                  <tr>
+                      <td>Nombre</td>
+                      <td>Apellido</td>
+                      <td>Correo</td>
+                  </tr>
+              </table>
+            </div>
+            </article>
+    </section>
+    <aside>
+        <h2>Publicidad</h2>
+        <a href="https://www.spotify.com/co-es/premium/"><img src="https://cdn.dribbble.com/userupload/21518263/file/original-8953c5cfc4bf26578308d60adb6069e6.gif" width="280"></a>
+    </aside>
+    <footer>
+        <h4> &copy; Copyright 2025 https://spotify.com y https://music.youtube.com  </h4>
+    </footer>
+  </div>
+  <script src="index.js"></script>
+ </body>
+</html>
